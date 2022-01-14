@@ -65,9 +65,10 @@ var fight = function() {
         else {
             fight()
         }
+        // if player did not chose 1 or 2 in prompt
     } else {
         window.alert("You need to choose a valid option. Try again!");
     }
-}
-
+};
+//run fight function to start game
 fight()
