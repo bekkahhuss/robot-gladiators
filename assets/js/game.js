@@ -141,8 +141,7 @@ var endGame = function() {
   if (playAgainConfirm) {
     //restart the game
     startGame();
-  }
-  else {
+  }else {
     window.alert("Thank you for playing Robot Gladiators! Come back soon!");
   }
 };
@@ -172,7 +171,7 @@ var shop = function() {
     case "upgrade":  // new case
     case "UPGRADE":
       if (playerMoney >= 7) {
-        window.alert("Upgrading players attack by 6 for 7 dollars");
+        window.alert("Upgrading player's attack by 6 for 7 dollars");
 
         //increase attack and decrease money
         playerAttack = playerAttack + 6;
